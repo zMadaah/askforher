@@ -1,0 +1,21 @@
+{
+  "name": "askherout-vite",
+  "version": "1.0.0",
+  "description": "Convite de date em React + Vite: o botão Não foge do cursor, o Sim leva a um calendário.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "html-to-image": "^1.11.13",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  },
+  "private": true,
+  "type": "module"
+}

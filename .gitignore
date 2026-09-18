@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.wrangler/
+**/.wrangler/
+.env
+.env.local
+
+# Respostas do convite: dados pessoais, ficam só na sua máquina
+responses.txt
+responses.jsonl

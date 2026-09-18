@@ -1,0 +1,12 @@
+name = "askherout-save"
+main = "src/worker.js"
+compatibility_date = "2026-08-01"
+
+[vars]
+# Preencha os três antes de publicar. Sem valores reais, o Worker se recusa a gravar.
+REPO = "SEU_USUARIO/SEU_REPOSITORIO_PRIVADO"   # onde o responses.txt vai ser gravado
+FILE = "responses.txt"
+ALLOWED_ORIGIN = "https://SEU_USUARIO.github.io" # a origem do seu site (sem barra no final)
+
+# GITHUB_TOKEN NÃO fica aqui de propósito: é um segredo.
+#   npx wrangler secret put GITHUB_TOKEN
