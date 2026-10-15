@@ -8,3 +8,5 @@ dist/
 # Respostas do convite: dados pessoais, ficam só na sua máquina
 responses.txt
 responses.jsonl
+.vercel
+.env*
